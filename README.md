@@ -4,8 +4,8 @@ In this project, we developed a predictive model to determine whether a passenge
 To run the project, install the required Python libraries:
 
 ```
-import pandas
-import numpy
+import pandas as pd
+import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 ```
 ## Data
