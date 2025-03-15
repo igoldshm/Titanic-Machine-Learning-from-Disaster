@@ -12,5 +12,6 @@ from sklearn.ensemble import RandomForestClassifier
 To achieve this, we used tabular data from Kaggle, consisting of two files: train_data.csv and test_data.csv.
 The dataset included detailed information about passengers and their tickets, such as age, gender, class, fare, and other relevant attributes.
 ### Feature engineering
+potentially we could have looked at the data and manually find patterns for each column (for example gender as an indicator for survival rate), but that would have taken a lot of time. 
 ## Model
 ## Results
