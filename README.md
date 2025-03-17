@@ -22,3 +22,4 @@ potentially we could have looked at the data and manually try to find patterns f
 The model was set to be with 100 estimators (trees) that have max_depth=5 (number of layers for each tree). The model looks for patterns in four different columns ("Pclass", "Sex", "SibSp", and "Parch") of the data.
 
 ## Results
+The code saves these new predictions in a CSV file called "submission.csv".
