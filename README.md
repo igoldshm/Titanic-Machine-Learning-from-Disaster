@@ -19,4 +19,6 @@ test_data.csv contains the other 418 passengers on board which we needed to pred
 ### Feature engineering
 potentially we could have looked at the data and manually try to find patterns for each column/combinations of columns (for example gender as an indicator for survival rate), but that would have taken us a lot of time and it would have been very challenging to complete. Instead we build a random forest model. This model creates several decision trees, where each tree represent a different combinatorial pattern in the data and each tree goes over all the passengers and determine if they survived ("1") or not("0"). The final prediction of the model for each passenger is being determined democratically according to what was the most predicted outcome by all the trees.
 ## Model
+The model was set to be with 100 estimators (trees) that have max_depth=5 (number of layers for each tree). THe model looks for patterns in four different columns ("Pclass", "Sex", "SibSp", and "Parch") of the data.
+
 ## Results
